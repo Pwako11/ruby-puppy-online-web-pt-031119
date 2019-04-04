@@ -8,7 +8,7 @@ class Dog
   end 
   
   def self.all 
-  @@all.map {|dog| puts dog.name}  
+  @@all.map {|i| puts i.name}  
   end 
 
   def self.clear_all
